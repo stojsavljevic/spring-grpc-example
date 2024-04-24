@@ -15,9 +15,9 @@ import com.alex.grpc.core.generated.PostServiceGrpc.PostServiceBlockingStub;
 import net.devh.boot.grpc.client.inject.GrpcClient;
 
 @SpringBootTest(properties = {
-		"grpc.server.port=-1",
-		"grpc.server.in-process-name=test",
-        "grpc.client.in-process.address=in-process:test"})
+	"grpc.server.port=-1",
+	"grpc.server.in-process-name=test",
+	"grpc.client.in-process.address=in-process:test"})
 @SpringJUnitConfig(classes = GrpcServerApplicationTestConfiguration.class)
 @DirtiesContext
 class GrpcServerApplicationTests {
