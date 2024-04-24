@@ -1,0 +1,5 @@
+grpc:
+  client:
+    grpc-post-client:
+      address: static://localhost:8085
+      negotiation-type: plaintext
