@@ -1,6 +1,8 @@
 # Spring gRPC Example Project ![build status](https://github.com/stojsavljevic/spring-grpc-example/actions/workflows/maven.yml/badge.svg)
 
-This project demonstrates the integration of gRPC (Google Remote Procedure Call) with the Spring ecosystem. gRPC is a high-performance, open-source RPC framework developed by Google that enables efficient communication between services.
+This project demonstrates the integration of gRPC (Google Remote Procedure Call) with the Spring ecosystem. gRPC is a high-performance, open-source RPC framework developed by Google that enables efficient communication between services. 
+
+Article that provides a detailed explanation of this example project can be found on [Medium.com](https://medium.com/@aleksandar.stojsavljevic/building-grpc-applications-with-spring-boot-beginners-guide-30e99a5acb51)
 
 ## gRPC in General
 
